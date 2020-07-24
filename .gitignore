@@ -6,10 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+<<<<<<< HEAD
 # Runs folder
 
 runs/
 
+=======
+>>>>>>> 03590de63453f236d585d8887d0f249641c7379b
 # Distribution / packaging
 .Python
 build/
@@ -130,4 +133,8 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+<<<<<<< HEAD
 .pyre/
+=======
+.pyre/
+>>>>>>> 03590de63453f236d585d8887d0f249641c7379b
