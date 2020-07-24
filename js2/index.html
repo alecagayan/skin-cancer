@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skin Lesion Diagnosis</title>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div>
+	<img id="lesion-image" src="" height="224" width="224"> 
+</div> 
+
+
+<div>
+    <input type="file" id='lesion-file'/>
+</div> 
+
+
+<div>
+    <p id='lesion-banner'>Please wait... AI is loading</p>
+	<ol id='lesion-results'></ol>	
+</div>
+
+<span id="moo"></span>
+
+<script type='text/javascript' src="model.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+
+Research Plan/Project Summary 
+Scienteer Project ID: 119694 Category: Robotics & Intelligent Machines Student(s): Alec Agayan Project Title: Skin cancer diagnosis using deep neural networks Division: Senior School Name: Herndon High School School City: Herndon, Virginia, US 
+Rationale 
+Skin cancer is the most common human cancer. Having an automated system to diagnose and classify skin lesions can help with speed, accuracy and efficiency of predictions. Often, artificial intelligence models predict more accurately than specialists in the field. With the number of mobile devices on the rise, machine learning can provide low-cost universal access to vital diagnostic care. With this project I want to help bring simple, easy, and reliable diagnostic care tools to people worldwide.
+
+Hypothesis 
+Build a reliable AI system for assisting in the diagnosis of skin cancer from a medical image of a skin lesion.
+
+Materials 
+A personal computer custom built by me for machine learning, Visual Studio Code (IDE), Python 3.6.8 (programming language), NVIDIA GPU with 2944 processing cores, TensorFlow library, medical image dataset from ISIC's Archive of dermoscopic images of skin lesions (ISIC stands for International Skin Imaging Collaboration) available under the Creative Commons license.
+
+Procedure 
+1. Sort dataset into training, validation, and test image sets
+2. Design and train a deep convolutional neural network
+3. Develop a browser-based application for diagnosis
+
+Data Analysis 
+Design a deep multi-layer neural network that is capable of performing image recognition. I will split my data into three parts: Training dataset (used to fit the model), Validation dataset (used to evaluate the model and assist in training), Test dataset (used to provide an unbiased evaluation of the fitted model). I will make plots of model accuracy and model loss on training and validation datasets to ensure that the model is not overfitting to the training data. Lastly, I will check the accuracy of the model on the test data and create a confusion matrix.
+
+Project Summary 
+Changes from Original Research Plan 
+
+Project Conclusions 
+
+Bibliography 
+Reference Source 
+Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018).
+Chollet, Francois. “The Keras Blog.” The Keras Blog ATOM, https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html.
+“ISIC Archive.” ISIC Archive, https://www.isic-archive.com/.
+Hagan, Martin T., et al. Neural Network Design. s. n., 2016.
+LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 436–444 (2015)
+
+
+
+
+
+Project Summary: Changes from the original Plan (NA if not applicable): (Discuss any changes to the material, methods, numbers or procedures that were different from your original Research Plan)
+Conclusions: (Discuss the data/results and the conclusions that can be drawn) 

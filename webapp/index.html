@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>    
+    <script>
+        window.addEventListener('load', function() {
+          document.querySelector('input[type="file"]').addEventListener('change', function() {
+              if (this.files && this.files[0]) {
+                  var img = document.querySelector('img');  // $('img')[0]
+                  img.src = URL.createObjectURL(this.files[0]); // set src to blob url
+                  img.onload = imageIsLoaded;
+              }
+          });
+        });
+
+        function imageIsLoaded() { 
+          predict();
+        }      
+    </script>
+  </head>
+  <body>
+    <div id="console">Please wait... AI is loading</div>
+
+    <div id="filecontrol" style="display:none">
+
+      <img id="img" crossorigin src="" width="224" height="224"/>
+      <div>
+         <p id='lesion-banner'></p>
+         <ol id='lesion-results'></ol>	
+      </div>
+
+    
+          <input type='file' accept="image/*" capture>
+
+    </div>
+  
+    <canvas id="myChart" width="230" height="230"></canvas>
+  
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
